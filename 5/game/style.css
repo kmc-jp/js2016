@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover {
+    width: 100vw; height: 100vh;
+}
+#screen {
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0px 0px 50px 3px #666;
+    overflow: hidden;
+}
+#player {
+    position: absolute;
+}
+.player,
+.bullet,
+.score {
+    position: absolute;
+}
+.bullet {
+    z-index: 1;
+}
+.score {
+    top: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 20px;
+    z-index: 10;
+}
+.score:before {
+    content: "Score ";
+}
