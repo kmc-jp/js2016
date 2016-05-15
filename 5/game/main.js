@@ -172,7 +172,7 @@ class Game {
 const game = new Game(document.getElementById("screen"));
 const key = [];
 const mainloop = () => {
-    setTimeout(mainloop, Math.floor(1000/60));
+    requestAnimationFrame(mainloop);
     game.move();
     game.update();
     game.check();
