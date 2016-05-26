@@ -1,8 +1,8 @@
 # js2016
-## スライド
-- <https://github.com/kmc-jp/js2016/tree/slide>
+## 各ディレクトリの説明
+- [slides](slides)
+    スライド
 
-## ディレクトリの説明
 - [template](template)  
     HTML, JavaScript, CSSの雛形
 
