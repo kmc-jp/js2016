@@ -1,0 +1,23 @@
+{
+  "name": "js2016",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmc-jp/js2016.git"
+  },
+  "author": "KMC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmc-jp/js2016/issues"
+  },
+  "homepage": "https://github.com/kmc-jp/js2016#readme"
+}
