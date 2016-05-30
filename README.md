@@ -1,6 +1,6 @@
 # js2016
 ## 各ディレクトリの説明
-- [slides](slides)
+- [slides](slides)  
     スライド
 
 - [template](template)  
