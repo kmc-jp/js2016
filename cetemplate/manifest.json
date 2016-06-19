@@ -10,19 +10,19 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://inside.kmc.gr.jp/*"],
-            "css": ["src/all.css"],
-            "js": ["src/all.js"],
+            "matches": ["*://*/*"],
+            "css": ["src/content/all.css"],
+            "js": ["src/content/all.js"],
             "run_at": "document_start"
         }
     ],
 	"browser_action": {
 		"default_icon": "image/icon.png",
 		"default_title": "Popup Title",
-		"default_popup": "popup/index.html"
+		"default_popup": "popup.html"
 	},
     "background": {
-        "scripts": ["src/background.js"],
+        "scripts": ["src/background/background.js"],
         "persistent": false
     },
     "permissions": [
