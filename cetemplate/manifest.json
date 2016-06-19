@@ -1,0 +1,31 @@
+{
+    "name": "アプリ名",
+    "version": "0.10",
+    "manifest_version": 2,
+    "description": "説明文",
+    "icons": {
+        "16": "image/icon.png",
+        "48": "image/icon.png",
+        "128": "image/icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://inside.kmc.gr.jp/*"],
+            "css": ["src/all.css"],
+            "js": ["src/all.js"],
+            "run_at": "document_start"
+        }
+    ],
+	"browser_action": {
+		"default_icon": "image/icon.png",
+		"default_title": "Popup Title",
+		"default_popup": "popup/index.html"
+	},
+    "background": {
+        "scripts": ["src/background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "storage"
+    ]
+}
