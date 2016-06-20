@@ -10,16 +10,16 @@
     },
     "content_scripts": [
         {
-            "matches": ["*://*/*"],
+            "matches": ["https://www.kmc.gr.jp/*"],
             "css": ["src/content/all.css"],
             "js": ["src/content/all.js"],
             "run_at": "document_start"
         }
     ],
-	"browser_action": {
-		"default_icon": "image/icon.png",
-		"default_title": "Popup Title",
-		"default_popup": "popup.html"
+    "browser_action": {
+        "default_icon": "image/icon.png",
+        "default_title": "Popup Title",
+        "default_popup": "popup.html"
 	},
     "background": {
         "scripts": ["src/background/background.js"],
