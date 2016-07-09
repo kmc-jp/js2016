@@ -1,0 +1,12 @@
+{
+  "name": "MyApp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "release": "node release.js"
+  },
+  "author": "Me",
+  "dependencies": {
+  }
+}
